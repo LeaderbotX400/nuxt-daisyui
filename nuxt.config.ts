@@ -59,13 +59,23 @@ export default defineNuxtConfig({
 
   modules: [
     "nuxt-typed-router",
-
+    "@nuxtjs/device",
     "@nuxtjs/tailwindcss",
     "nuxt-icon",
     "@vueuse/nuxt",
     "@nuxtjs/google-fonts",
     "dayjs-nuxt",
   ],
+
+  tailwindcss: {
+    config: {
+      content: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}"],
+      daisyui: {
+        themes: ["light", "dark"],
+      },
+      plugins: [require("daisyui")],
+    },
+  },
 
   googleFonts: {
     preconnect: true,
