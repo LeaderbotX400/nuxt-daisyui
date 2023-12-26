@@ -1,0 +1,16 @@
+{
+    "recommendations": [
+        "nuxtr.nuxtr-vscode",
+        "vue.volar",
+        "bradlc.vscode-tailwindcss",
+        "nuxt.mdc",
+        "christian-kohler.npm-intellisense",
+        "zignd.html-css-class-completion",
+        "antfu.goto-alias",
+        "dbaeumer.vscode-eslint",
+        "editorconfig.editorconfig",
+        "pranaygp.vscode-css-peek",
+        "aaron-bond.better-comments",
+        "formulahendry.auto-close-tag"
+    ]
+}
